@@ -1,0 +1,7 @@
+/* Minimal overrides */
+:root { --accent: #2563eb; }
+#nav, .wrapper.style4, .button { background-color: var(--accent); }
+.button:hover { background-color: #1e40af; }
+#top p { max-width: 52ch; }
+.subtitle { color: #555; font-weight: 600; margin-top: -0.25rem; }
+.image.fit img { border-radius: 12px; }
