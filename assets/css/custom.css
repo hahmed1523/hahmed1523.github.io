@@ -5,3 +5,25 @@
 #top p { max-width: 52ch; }
 .subtitle { color: #555; font-weight: 600; margin-top: -0.25rem; }
 .image.fit img { border-radius: 12px; }
+
+
+/* Sample Work: tidy stacked figures */
+.sample-work .box.style1 {
+  max-width: 980px;     /* keeps content from going edge-to-edge */
+  margin: 0 auto 2rem;  /* center and add spacing */
+}
+
+.sample-work img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.75rem;
+  border-radius: 8px;
+}
+
+.sample-work figcaption {
+  font-size: 0.95em;
+  color: #666;
+  line-height: 1.5;
+  text-align: center;
+}
