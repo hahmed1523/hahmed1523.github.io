@@ -27,3 +27,65 @@
   line-height: 1.5;
   text-align: center;
 }
+
+
+
+/* Contact: tighter, lighter */
+#contact.wrapper.style4 { padding: 3.25em 0; }          /* was very tall */
+#contact .contact-block { max-width: 720px; margin: 0 auto; }
+#contact header { margin: 0 0 1.25em 0; }
+#contact h2 { font-size: 1.9rem; margin-bottom: .2rem; }
+#contact header > p { font-size: 1.05rem; opacity: .9; }
+
+/* Remove the template's square tiles and use clean icons */
+#contact ul.social.no-tiles li a:before {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  width: auto; height: auto; line-height: 1;
+}
+
+#contact ul.social.no-tiles li a {
+  width: auto; height: auto; padding: 0.25rem;
+}
+
+#contact ul.social.no-tiles li a:before {
+  font-size: 28px;           /* icon size */
+  color: #fff !important;    /* white on blue */
+}
+
+#contact ul.social.no-tiles li a:hover:before {
+  opacity: 0.85;
+}
+
+/* Tighten spacing around the icons */
+#contact ul.social.compact { margin-top: 1rem; }
+#contact ul.social.compact li { margin: 0 0.5rem; }
+
+
+#contact .button.ghost {
+  background: transparent !important;
+  color: #fff !important;          /* white text */
+  border: 2px solid #fff !important;
+  padding: 0.6em 1.25em;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+#contact .button.ghost:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+#contact header > p {
+  color: #e0e0e0;   /* light gray */
+  font-weight: 300;
+}
+
+#contact ul.social.no-tiles li a.fa-github:before {
+  color: #333 !important;   /* GitHub gray */
+}
+
+
+
+
+
